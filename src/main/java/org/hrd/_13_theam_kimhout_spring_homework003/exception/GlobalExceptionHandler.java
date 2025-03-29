@@ -26,17 +26,6 @@ public class GlobalExceptionHandler {
         return detail;
     }
 
-//    @ExceptionHandler(BadRequestException.class)
-//    public ProblemDetail handleBadRequestException(BadRequestException ex) {
-//        ProblemDetail detail = ProblemDetail.forStatus(HttpStatus.BAD_REQUEST);
-//        detail.setStatus(HttpStatus.BAD_REQUEST);
-//        detail.setDetail(ex.getMessage());
-//        detail.setProperties(Map.of("Timestamp", LocalDateTime.now()));
-//
-//        return detail;
-//    }
-
-
     //for dto
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ProblemDetail handleMethodArgumentNotValidException(MethodArgumentNotValidException ex) {

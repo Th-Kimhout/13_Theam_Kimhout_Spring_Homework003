@@ -1,7 +1,6 @@
 package org.hrd._13_theam_kimhout_spring_homework003.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import org.hrd._13_theam_kimhout_spring_homework003.exception.BadRequestException;
 import org.hrd._13_theam_kimhout_spring_homework003.exception.NotFoundException;
 import org.hrd._13_theam_kimhout_spring_homework003.model.Attendee;
 import org.hrd._13_theam_kimhout_spring_homework003.model.dto.AttendeeRequest;
